@@ -1,0 +1,9 @@
+[package]
+name = "getting-started-with-rust-lfel1002"
+version = "0.1.0"
+
+[[bin]]
+name = "security01"
+
+[dependencies]
+regex = "1.0.0"
