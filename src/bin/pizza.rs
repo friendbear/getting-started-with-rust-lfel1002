@@ -6,8 +6,8 @@ use std::io::{self, Write};
 struct Pizza {
     name: String,
     price: f64,
-}
-
+}  
+ 
 // Create a hashmap to store availabe pizza options
 fn create_pizza_menu() -> HashMap<String, Pizza> {
     let mut pizza_menu = HashMap::new();
